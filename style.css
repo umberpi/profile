@@ -14,6 +14,11 @@
   color: white;
   text-decoration: none;
   padding: 10px;
+  font-size: 30px;
+  line-height: 2;
+}
+#sidebar a:hover {
+  font-size: 50px;
 }
 
 #page-content{
@@ -150,5 +155,5 @@ h1, h2 {
 
 a:hover {
   color: lightgrey;
-  text-decoration: blink
+  text-decoration: blink;
 }
