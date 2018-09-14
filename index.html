@@ -1,35 +1,45 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
-      <title>My profile page</title>
-    </head>
+  <title>My profile page</title>
+</head>
 
-    <body>
-      <div class="container">
-        <div class="card">
-          <img id="profilepic" src="/images/profile_pic.jpg" target="_blank">
-
+<body>
+  <div id="sidebar">
+<div id="summary">
+          <img id="profilepic" src="images/prof_pic.jpg" target="_blank">
           <h1>Umberto Pisano</h1>
-          <h2>Developer</h2>
-
-          <p> Sustainability fanatic, researcher, and change-maker. Worked on several international projects for <strong>Sustainable Development</strong>, now looking for new challenges. </p>
+          <h2>Junior Developer & Changemaker</h2>
+          <p> Sustainability fanatic, researcher, and changemaker. I found a new passion for coding, fixing things, and for transforming an idea in a prototype. I am now looking for new challenges. </p>
           <a href="https://kitt.lewagon.com/alumni/umberpi" class="btn-blue">Find me here!</a>
-
         </div>
-        <div class="card">
+    <a href="#summary" i class="fas fa-info"></i></a>
+    <a href="#address" i class="fas fa-address-card"></i></a>
+    <a href="#favorite-movies" i class="fas fa-film"></i></a>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <div class="card">
+
+
+      </div>
+      <div class="card">
+        <div id="address">
           <ul class="list-inline">
             <li class="icon"><a href="https://www.facebook.com/upisano"> <i class="fab fa-facebook-f"></i></a></li>
             <li class="icon"><a href="https://www.linkedin.com/in/umbertopisano/"> <i class="fab fa-linkedin"></i></a></li>
             <li class="icon"><a href="https://github.com/umberpi"> <i class="fab fa-github"></i></a></li>
           </ul>
         </div>
+      </div>
 
-        <div class="card">
+      <div class="card">
+        <div id="favorite-movies">
           <h2>My movies</h2>
           <table>
             <tr>
@@ -47,7 +57,7 @@
               </td>
             </tr>
             <tr>
-              <td> <img src="images/gladiator.jpg" width="180" target="_blank"></td>
+              <td> <img src="images/gladiator.jpg" target="_blank"></td>
               <td>
                 <h3>Gladiator</h3>
                 <p>When a Roman General is betrayed, and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.</p>
@@ -55,17 +65,17 @@
             </tr>
           </table>
         </div>
-
-        <div class="card">
-
-          <h2>About this page</h2>
-          <p>This page has been coded during the <a href="https://www.lewagon.com/program">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
-          <ul class="list-inline">
-            <li><i class="far fa-heart"></i></li>
-            <li><i class="fas fa-share-square"></i></li>
-            <li><i class="fas fa-star"></i></li>
-          </ul>
-        </div>
       </div>
-    </body>
+      <div class="card">
+        <h2>About this page</h2>
+        <p>This page has been coded during the <a href="https://www.lewagon.com/program">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+        <ul class="list-inline">
+          <li><i class="far fa-heart"></i></li>
+          <li><i class="fas fa-share-square"></i></li>
+          <li><i class="fas fa-star"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
